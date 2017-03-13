@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the diff (or FC for windows command prompt) compares line numbers
+    on files and shows the line numbers on each file if there is a difference.
+    Thus, keeping short lines of code makes it easier to compare lines instead
+    of looking through incredibly long lines of code for differences.
+
+    Plus, diff makes it easier to spot differences in code when you have files
+    with thousands of lines of code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Anytime you want to use code you haven't used in a long time, looking at
+    previous versions will help job your memory. Plus, it makes it easy to try
+    variations of code without being worried about losing what you were
+    working on.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros for Git: save when you want to, add comments to each save to give 
+    description, save at logical points, easy to compare file changes
+    Cons for Git: Might forget to save
+
+    Pros for Google docs: saves often, never miss a save
+    Cons for Google docs: too many saves, no comments about each save so
+    it's hard to keep track of each save, hard to compare two file changes
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Files in Git are connected whereas files in Google Docs usually aren't. You
+    won't usually change multiple Google Docs at the same time whereas changing
+    multiple files in a game happen pretty often because they rely on each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows all the commits made with a file. git diff shows the differences
+    between two files (git diff first_file second_file).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    As long as you have multiple versions, making game breaking changes aren't
+    a big deal because you can always revert back to an older commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to create more complex projects and start exploring what I can do
+	with them.
