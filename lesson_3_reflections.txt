@@ -1,1 +1,2 @@
 When would you want to create a remote repository rather than keeping all your work local?
+  Making a respository on github is useful for collaborating with others. Multiple people can edit the same respository online and everyone can see the changes and add to them. Also, you don't need to make all the changes on the same computer if you keep them online.
