@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a separate branch allow you to experiment before committing it to the overall project. Also, it allows multiple people to work on different parts of the project without everyone being on the same commit.
