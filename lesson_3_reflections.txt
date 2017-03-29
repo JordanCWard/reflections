@@ -10,7 +10,8 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Branches are different parts of a project. The master branch is the original branch and every other branch comes off it. It's useful to copy and edit parts of the project instead of the entire thing. This would be a branch off the master branch.
+    Forks and clones are basically identical. Clones are local, forks are copying other people's material on github.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?

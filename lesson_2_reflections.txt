@@ -1,9 +1,27 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-  Initializing a repository means creating a repository for the first time. Without doing this, you wouldn't be able to save commits.
+	Initializing a repository means creating a repository for the first time. Without doing this, you wouldn't be able to save commits.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-  Working directory is all of the files in the current directory.
-  Staging area is where you place files before they go into a commit in the repository.
-  It's useful because you can place multiple files here to put them in the same commit.
+	Working directory is all of the files in the current directory that you are still editing. Staging area is where you place files before they go into a commit in the repository. It's useful because you can place multiple files here to put them in the same commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Place files that have 1 logical change into the staging area from the working directory. If multiple files are part of that change, include multiple files. If it's only 1 file, only put 1 file in the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Branching is useful for splitting an idea into two parts, such as language versions or easy/medium/hard modes.
+
+How do the diagrams help you visualize the branch structure?
+
+	Commits become non-linear when you add branches. It's much easier to see each branch when it is written down on a diagram.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging two branches combines the two branches into 1 file. It's incredibly useful to make changes on multiple files before combining them all together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	
+	Merging manually takes a long time. Git's automatic merging is quicker and allows you to easily see all the changes from 1 file to another in a nice output.
